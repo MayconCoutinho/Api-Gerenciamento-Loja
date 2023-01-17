@@ -33,7 +33,7 @@ class Migrations extends BaseDatabase {
             id VARCHAR(50) NOT NULL,
             name VARCHAR(45) NOT NULL UNIQUE,
             category  VARCHAR(45),
-            status ENUM ('ACTIVE','INACTIVE') DEFAULT 'INACTIVE' NOT NULL,
+            status ENUM ('ACTIVE','INACTIVE') DEFAULT 'ACTIVE' NOT NULL,
             quantity INT NOT NULL,
             created_at  INT NOT NULL,
             updated_at  INT NOT NULL,
