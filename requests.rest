@@ -1,2 +1,18 @@
 ### Products
 GET http://localhost:3003/products
+
+### Cadastra Produto
+POST  http://localhost:3003/products/cadastro
+Content-Type: application/json
+
+{
+  "name": "Maycon",
+  "category": "pessoa",
+  "quantity": 10
+}
+
+### Mudar Produto
+PUT  http://localhost:3003/products/1/name/cocote
+
+### Deletando tabela
+DELETE http://localhost:3003/products/e8ff82ce-762d-4c4b-961b-f831aec9aa7d
