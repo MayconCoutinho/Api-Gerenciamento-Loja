@@ -35,8 +35,46 @@
 <a id="Resultados"></a>
 ## 🚀 Resultados 
 
+
+<br /> 
+
 <a id="Dependências"></a>
 ## 🧪 Dependências
+> Requisitos para rotar o codigo... 
+
+<br /> 
+
+## `📖 Dependencies` 
+
+```JSON
+  "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "knex": "^2.4.0",
+        "mysql": "^2.18.1",
+        "uuid": "^9.0.0"
+      }
+
+```
+
+<br /> 
+
+## `📖 devDependencies` 
+
+
+```JSON
+      "devDependencies": {
+        "@types/cors": "^2.8.13",
+        "@types/express": "^4.17.15",
+        "@types/knex": "^0.16.1",
+        "@types/node": "^18.11.18",
+        "@types/uuid": "^9.0.0",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.9.4"
+      }
+
+```
 
 
 <a id="Ideias"></a>
