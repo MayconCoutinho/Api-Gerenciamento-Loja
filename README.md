@@ -34,7 +34,7 @@
 
 <a id="Resultados"></a>
 ## 🚀 Resultados 
-  > Por se tratar de um teste bem simples todos os resultados foram alcançados. De modo geral são esses os resultados de cada requisição. 
+  > Todos os resultados foram alcançados com sucesso. De modo geral são esses os resultados de cada requisição. 
 
 <br/> 
   
