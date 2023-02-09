@@ -34,15 +34,86 @@
 
 <a id="Resultados"></a>
 ## 🚀 Resultados 
+  > Por se tratar de um teste bem simples todos os resultados foram alcançados. De modo geral são esses os resultados de cada requisição. 
 
+<br/> 
+  
+### 🎯 PEGAR TODOS OS PRODUTOS CADASTRADO NO BANCO DE DADOS.
+  
+### ```GET``` 
+```URL
+ http://localhost:3003/products
+```
+  
+```JSON
+  {
+    "id": "e5a9a1af-c23e-4e10-98fd-ae914f7f6424",
+    "name": "macbook",
+    "category": "laptop",
+    "status": "ACTIVE",
+    "quantity": 10,
+    "created_at": 0,
+    "updated_at": 0,
+    "deleted_at": 0
+  }
+```
+  
+<br /> 
+  
+### 🎯  CRIAR UM PRODUTO ATRAVEZ DO NOME, CATEGORIA E QUANTIDADE.
+  
+### ```POST```  
+  
+```URL
+  http://localhost:3003/products/cadastro
+```
+  
+```JSON
+{
+  "name": "macbook",
+  "category": "laptop",
+  "quantity": 10
+}
+```
+
+<br /> 
+  
+### 🎯  MUDA O VALOR OU O NOME DE ALGUM PRODUTO ATRÁVES DA URL 
+  
+### ```PUT```  
+  
+```URL
+  http://localhost:3003/products/:idProduto/category/video-game
+```
+  
+```JSON
+{
+  "message": "Um produto da tabela = category, foi mudado  para o valor = video-game com sucesso"
+}
+```
+
+<br/> 
+  
+### 🎯  DELETA O O PRODUTO ATRÁVES DA URL 
+  
+### ```DELETE```  
+  
+```URL
+ http://localhost:3003/products/:idProduto
+```
+  
+```JSON
+{
+  "message": "O produto com id = bc3ad746-67be-4216-831d-eb8087306592 foi deletado."
+}
+```
 
 <br /> 
 
 <a id="Dependências"></a>
 ## 🧪 Dependências
-> Requisitos para rotar o codigo... 
-
-<br /> 
+> Requisitos para rotar o codigo...
+  
 
 ## `📖 Dependencies` 
 
