@@ -154,10 +154,10 @@
 
 <br /> 
 
-- [] Testa todo o código. 
-- [] Criar token de confirmação de token para cada requisição.
-- [] Na parte do deletar produto, além de deletar o produto, criar um log de qual produto foi deletado e quando
-- [] Quando deletar o produto, deixar ele fora do ar, no entando deixar ele em um backap que só vai ser deletado depois de alguns meses ou dias
+- [ ] Testa todo o código. 
+- [ ] Criar token de confirmação de token para cada requisição.
+- [ ] Na parte do deletar produto, além de deletar o produto, criar um log de qual produto foi deletado e quando
+- [ ] Quando deletar o produto, deixar ele fora do ar, no entando deixar ele em um backap que só vai ser deletado depois de alguns meses ou dias
 
 <br /> 
 
