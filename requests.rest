@@ -6,8 +6,8 @@ POST  http://localhost:3003/products/cadastro
 Content-Type: application/json
 
 {
-  "name": "Maycon",
-  "category": "pessoa",
+  "name": "teste22",
+  "category": "teste",
   "quantity": 10
 }
 
