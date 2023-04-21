@@ -4,6 +4,9 @@
 
 <h1 align="center"> Gerenciador de Produto </h1>
 
+<a id="Sumário"></a>
+
+
 <p align="center">
   <b> CRUD Simples de uma Api </b></br>
   <sub> A api teve como finalidade a criação de um crud para um teste técnico backend, a api de modo geral é bem simples e tem como objetivo gerenciar produtos cadastrados
@@ -108,6 +111,11 @@
 }
 ```
 
+
+<br/>
+
+<a href="#Sumário"> 📖 Volta ao Sumário </a>
+
 <br /> 
 
 <a id="Dependências"></a>
@@ -182,6 +190,11 @@ npm i
 - [ ] ***- Na parte do deletar produto, além de deletar o produto, criar um log de qual produto foi deletado e quando.***
 - [ ] ***- Quando deletar o produto, deixar ele fora do ar, no entando deixar ele em um backap que só vai ser deletado depois de alguns meses ou dias.***
 
+
+<br/>
+
+<a href="#Sumário"> 📖 Volta ao Sumário </a>
+
 <br /> 
 
 <a id="Creditos"></a>
@@ -196,3 +209,7 @@ npm i
 
 
 </div> 
+
+<br /> 
+
+
